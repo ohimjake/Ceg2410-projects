@@ -1,0 +1,30 @@
+# Project 1 Rubric
+
+## HTTP Server ( / 10)
+
+
+2. Documenting defaults:
+    - What port is the service running on?
+     It is running on port 80 
+    - What directory does it serve content from by default?
+    /etc/nginx
+    - What is the name of the primary configuration file for the service?
+    nginx.conf
+3. Describe two ways (at least) that you can confirm the webserver is serving your site's content
+I can go to it locally at the ip and see it is hosting
+I can check the console to make sure its enabled.
+5. Permissions documentation includes:
+    - a screenshot of your permission sets
+        - the web content server can serve (read) the site content
+        - the group devs can edit files
+        - new files automatically belong to the dev group
+    - a description of how you set up the permissions (especially the persistence)
+
+
+## Firewalls (easy mode) ( / 2)
+
+1. Screenshot of Security Group rules per requirements
+2. Explanation of rules
+Rules would contain SSh connection from my home computer and campus ip's
+Anyone on port 80 and 443 would be able to connect via ip
+
